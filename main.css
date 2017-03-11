@@ -74,7 +74,7 @@ h1 {
 .avatar {
 	width: 240px;
 	height: 240px;
-	border-radius: 40%;
+	border-radius: 50%;
 	border: 0px solid black
 }
 
@@ -84,7 +84,7 @@ article, aside, footer, header, hgroup, main, nav, section {
 
 nav ul {
 	list-style: none;
-	margin: 0 avto;
+	margin: auto;
 	padding: 1.5em;
 	display: table;
 }
@@ -104,4 +104,13 @@ nav a {
 	color: black;
 	padding: 5px 12px;
 	font-weight: 400;
+}
+
+nav a:hover {
+	color: gray;
+}
+
+.email, .twitter, .github, .fcc, .khan, .linkedin {
+	width: 100px;
+	height: 100px;
 }

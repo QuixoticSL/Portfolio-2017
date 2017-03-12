@@ -56,7 +56,7 @@ html, body {
 	height: 100%;
 	width: 100%;
 	text-align: center;
-	background: #CFD8DC;
+	background: #263238;
 }
 
 div {
@@ -66,17 +66,24 @@ div {
 }
 
 h1 {
-	color: #263238;
+	color: #E8EAF6;
 	display: block;
 	font-family: 'Ranga', cursive;
 	font-size: 60px;
+	padding-top: 10px;
 }
 
 .avatar {
 	width: 240px;
 	height: 240px;
-	border-radius: 50%;
-	border: 0px solid black
+	padding: 0 0 10px 0;
+}
+
+.pages a {
+	text-align: center;
+	font-family: 'Ranga', cursive;
+	font-size: 30px;
+	text-decoration: underline;
 }
 
 article, aside, footer, header, hgroup, main, nav, section {
@@ -86,7 +93,7 @@ article, aside, footer, header, hgroup, main, nav, section {
 nav ul {
 	list-style: none;
 	margin: auto;
-	padding: 1.5em;
+	padding: 0.75em;
 	display: table;
 }
 
@@ -102,7 +109,7 @@ li {
 nav a {
 	display: inline-block;
 	text-decoration: none;
-	color: black;
+	color: #E8EAF6;
 	padding: 5px 12px;
 	font-weight: 400;
 }

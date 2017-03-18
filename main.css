@@ -86,6 +86,10 @@ h1 {
 	text-decoration: underline;
 }
 
+.pages a:hover {
+	text-decoration: none;
+}
+
 article, aside, footer, header, hgroup, main, nav, section {
 	display: block;
 }

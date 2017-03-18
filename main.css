@@ -56,7 +56,7 @@ html, body {
 	height: 100%;
 	width: 100%;
 	text-align: center;
-	background: #263238;
+	background: #212121;
 }
 
 div {
@@ -120,11 +120,20 @@ nav a {
 
 nav a:hover {
 	color: black;
-	background-color: white;
+	background-color: #42A5F5;
 	border-radius: 70%;
 }
 
 .email, .twitter, .github, .fcc, .khan, .linkedin {
 	width: 100px;
 	height: 100px;
+}
+
+.homesection {
+	padding-top: 150px;
+}
+
+.aboutsection {
+	padding-top: 340px;
+	padding-bottom: 500px;
 }

@@ -57,6 +57,7 @@ html, body {
 	width: 100%;
 	text-align: center;
 	background: #00897B;
+	color: white;
 }
 
 div {
@@ -80,6 +81,18 @@ h3 {
 	font-size: 40px;
 	padding-top: 30px;
 	text-decoration: underline;
+}
+
+h5 {
+	color: white;
+	display: block;
+	font-family: 'Work Sans', cursive;
+	font-size: 40px;
+	padding-top: 30px;
+}
+
+h5 a:hover {
+	color: #42A5F5;
 }
 
 p {
@@ -125,8 +138,7 @@ nav a {
 
 nav a:hover {
 	color: black;
-	background-color: #42A5F5;
-	border-radius: 70%;
+	background-color: white;
 }
 
 .email, .twitter, .github, .fcc, .linkedin {

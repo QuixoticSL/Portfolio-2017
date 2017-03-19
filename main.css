@@ -56,7 +56,7 @@ html, body {
 	height: 100%;
 	width: 100%;
 	text-align: center;
-	background: #212121;
+	background: #00897B;
 }
 
 div {
@@ -73,21 +73,26 @@ h1 {
 	padding-top: 10px;
 }
 
-.avatar {
-	width: 240px;
-	height: 240px;
-	padding: 0 0 10px 0;
-}
-
-.pages a {
-	text-align: center;
+h3 {
+	color: #E8EAF6;
+	display: block;
 	font-family: 'Ranga', cursive;
-	font-size: 30px;
+	font-size: 40px;
+	padding-top: 30px;
 	text-decoration: underline;
 }
 
-.pages a:hover {
-	text-decoration: none;
+p {
+	color: white;
+	font-family: 'Work Sans';
+	font-size: 30px;
+	padding: 10px 0 10px 0;
+}
+
+.avatar {
+	width: 240px;
+	height: 240px;
+	padding: 20px 0 10px 0;
 }
 
 article, aside, footer, header, hgroup, main, nav, section {
@@ -97,7 +102,7 @@ article, aside, footer, header, hgroup, main, nav, section {
 nav ul {
 	list-style: none;
 	margin: auto;
-	padding: 0.75em;
+	padding: 20px 0 0 0;
 	display: table;
 }
 
@@ -124,16 +129,7 @@ nav a:hover {
 	border-radius: 70%;
 }
 
-.email, .twitter, .github, .fcc, .khan, .linkedin {
+.email, .twitter, .github, .fcc, .linkedin {
 	width: 100px;
 	height: 100px;
-}
-
-.homesection {
-	padding-top: 150px;
-}
-
-.aboutsection {
-	padding-top: 340px;
-	padding-bottom: 500px;
 }

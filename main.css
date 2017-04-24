@@ -174,3 +174,9 @@ header .quote {
     text-align: center;
     height: 50vh;
 }
+
+.technologies h1 {
+    padding-top: 20px;
+    font-size: 60px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}

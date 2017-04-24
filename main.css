@@ -139,6 +139,9 @@ table {
 
 /* Main CSS */
 
+
+/* Header */
+
 header {
     text-align: center;
     width: 100%;
@@ -162,4 +165,12 @@ header p {
 
 header .quote {
     font-family: 'Ranga', sans-serif;
+}
+
+
+/* Technologies */
+
+.technologies {
+    text-align: center;
+    height: 50vh;
 }

@@ -180,3 +180,7 @@ header .quote {
     font-size: 60px;
     font-family: 'PT Sans Narrow', sans-serif;
 }
+
+.technologies ul li {
+		display: inline-block;
+}

@@ -202,3 +202,29 @@ header .quote {
     background: #36486b;
     color: white;
 }
+
+.presence-online h1 {
+  padding-top: 30px;
+  font-size: 60px;
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-decoration: underline;
+}
+
+.presence-online h3 {
+  padding-top: 40px;
+  font-size: 40px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.presence-online h3 a {
+  text-decoration: none;
+  color: white;
+}
+
+.presence-online h3 a:hover {
+  text-decoration: underline;
+}
+
+.presence-online p {
+  padding-top: 10px;
+}

@@ -198,13 +198,13 @@ header .quote {
 
 .presence-online {
     text-align: center;
-    height: 100vh;
+    height: 110vh;
     background: #36486b;
     color: white;
 }
 
 .presence-online h1 {
-  padding-top: 30px;
+  padding-top: 35px;
   font-size: 60px;
   font-family: 'PT Sans Narrow', sans-serif;
   text-decoration: underline;
@@ -218,13 +218,27 @@ header .quote {
 
 .presence-online h3 a {
   text-decoration: none;
-  color: white;
+  color: #ff9933;
 }
 
 .presence-online h3 a:hover {
   text-decoration: underline;
+  color: white;
 }
 
 .presence-online p {
   padding-top: 10px;
+  font-size: 22px;
+  font-family: 'Work sans', sans-serif;
+}
+
+/* Footer */
+
+footer {
+  text-align: center;
+  background: #36486b;
+  color: white;
+  font-family: 'Work sans', sans-serif;
+  padding: 10px 0 10px 0;
+  border-top: 1px solid white;
 }

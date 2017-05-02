@@ -146,7 +146,7 @@ header {
     width: 100%;
     height: 30vh;
     background: #36486b;
-    color: black;
+    color: white;
     border-top: solid #BDBDBD;
 }
 
@@ -154,6 +154,7 @@ header h1 {
     padding-top: 20px;
     font-size: 60px;
     font-family: 'PT Sans Narrow', sans-serif;
+    color: gray;
 }
 
 header p {
@@ -172,7 +173,7 @@ header .quote {
 .technologies {
     text-align: center;
     height: 30vh;
-    background: white;
+    background: #66ccff;
     color: black;
 }
 
@@ -190,7 +191,7 @@ header .quote {
 .technologies ul li {
 		display: inline-block;
 		padding-right: 30px;
-		padding-top: 40px;
+		padding-top: 50px;
 		font-family: 'PT Sans Narrow', sans-serif;
 }
 
@@ -218,12 +219,12 @@ header .quote {
 
 .presence-online h3 a {
   text-decoration: none;
-  color: gray;
+  color: #36486b;
 }
 
 .presence-online h3 a:hover {
   text-decoration: underline;
-  color: white;
+  color: black;
 }
 
 .presence-online p {
